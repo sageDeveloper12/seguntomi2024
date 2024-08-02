@@ -288,6 +288,7 @@ button:hover{
   width: 100%;
   max-width: 600px; 
   align-self: center;
+  opacity: 1;
 }
 
 .gallery__container img, .gallery__container video {
@@ -300,6 +301,7 @@ button:hover{
 
 .gallery__container .image__wrapper{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .gallery__container .image__container{
@@ -312,6 +314,7 @@ button:hover{
   padding: 0.6rem;
   position: relative;
   left: 6rem;
+  opacity: 1
 }
 
 
