@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Upload.css'; 
+
 
 const Upload = () => {
   const [files, setFiles] = useState([]);
