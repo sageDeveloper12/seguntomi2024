@@ -17,7 +17,7 @@ const Upload = () => {
     Array.from(files).forEach(file => formData.append('files', file));
 
     try {
-      const response = await fetch('http://localhost:5000/upload', {
+      const response = await fetch('https://event-backend-2-w4d0.onrender.com', {
         method: 'POST',
         body: formData
       });
