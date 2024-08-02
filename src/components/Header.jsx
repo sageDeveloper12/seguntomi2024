@@ -62,7 +62,7 @@ const Header = () => {
           variants={titleVariant}
           initial = 'hidden'
           animate = 'visible'
-          >OLUWATOMI & OLUWASEGUN</motion.h1>
+          >OLUWATOMISIN & OLUWASEGUN</motion.h1>
         </div>       
         <div className="nav__container">
         <ul>
