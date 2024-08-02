@@ -365,6 +365,24 @@ input[type="file"] {
   cursor: not-allowed;
 }
 
+
+#loadingContainer {
+  position: relative;
+  width: 100%;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#loadingBar {
+  height: 20px;
+  background-color: #4caf50;
+  width: 0;
+  transition: width 0.4s;
+}
+
 p {
   text-align: center;
   margin-top: 1rem;
