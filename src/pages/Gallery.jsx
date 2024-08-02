@@ -9,7 +9,7 @@ const Gallery = () => {
   useEffect(() => {
     const fetchMedia = async () => {
       try {
-        const response = await fetch('https://event-backend-2-w4d0.onrender.com/media');
+        const response = await fetch('https://event-api-4y3b.onrender.com');
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -25,7 +25,7 @@ const Gallery = () => {
 
   const handleDelete = async (filename) => {
     try {
-      const response = await fetch(`https://event-backend-2-w4d0.onrender.com/${filename}`, {
+      const response = await fetch(`https://event-api-4y3b.onrender.com/${filename}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
@@ -64,11 +64,11 @@ const Gallery = () => {
           <div className="image__container" key={index}>
             {file.endsWith('.mp4') ? (
               <video width="320" height="240" controls>
-                <source src={`https://event-backend-2-w4d0.onrender.com/${file}`} type="video/mp4" />
+                <source src={`https://event-api-4y3b.onrender.com/${file}`} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             ) : (
-              <img src={`https://event-backend-2-w4d0.onrender.com/${file}`} alt={`Uploaded media ${index}`} />
+              <img src={`https://event-api-4y3b.onrender.com/${file}`} alt={`Uploaded media ${index}`} />
             )}
             <button onClick={() => handleDelete(file)}>Delete</button>
     
