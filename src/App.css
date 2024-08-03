@@ -17,15 +17,53 @@ ul, li {
 body{
   background: linear-gradient(to bottom, #F7E7CE,#80011f);
   padding: 4rem;
-  color:black;
+
 }
 
 button{
-  background-color: #F7E7CE;
+  background-color: #808000;
 }
 
 button:hover{
-  background-color: #808000;
+  background-color: #F7E7CE;
+}
+.title {
+  position: relative;
+  background-color: transparent; 
+  padding: 2.5rem; 
+  opacity: 1;
+}
+
+.title p{
+  font-size: 1.5rem;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/background.jpg");
+  background-size: cover; 
+  background-position: center; 
+  filter: blur(2px);
+  opacity: 0.5; 
+  z-index: -1; 
+}
+
+em{
+  font-weight: 700;
+}
+
+p{
+  text-justify: center;
+  line-height: 1.5rem;
+}
+
+h3{
+  text-align: center;
 }
 
 .header__container{
@@ -120,12 +158,19 @@ button:hover{
   width: 400px;
   height: 550px;
   box-shadow: 0 4px 8px rgb(160, 84, 96);
+  transition: transform 0.3s ease
 }
 
 .image__container .main__image:hover{
   filter: grayscale(1);
   box-shadow: 0 8px 16px rgb(160, 84, 96);
+  transform: scale(1.1);
 
+}
+.image__container .main__image:active {
+  transform: scale(1.1);
+  filter: grayscale(1);
+  box-shadow: 0 8px 16px rgb(160, 84, 96);
 }
 .text__container{
   display: flex;
@@ -187,24 +232,33 @@ button:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
+  overflow: hidden;
+}
+
+#photograph__text{
+  text-indent: 2px !important;
+  position: relative;
+  left: 0;
 }
 
 .event__container ul{
   margin: 0 auto;
   display: flex;
   flex-direction: column ;
-  gap: 2rem;
-  background-color: #ffc0cb;
+  gap: 1rem;
+  background-color: #e0e0a7;
   justify-content: center;
   align-items: space;
+  width:100%
 }
 .event__container ul .event__item{
+  width:100%;
   font-size: 1rem;
   list-style: none;
   background-color: whitesmoke;
   margin: 0.5rem;
-  padding: 1rem 2rem;
+  padding: 1rem;
   box-shadow: 0 8px 16px rgb(160, 84, 96);
   border: 2px solid gray;
 }
@@ -255,7 +309,7 @@ button:hover{
 
   .event__container{
     margin-left:0 ;
-    background-color: black;
+
   }
   .event__container ul .event__item{
     font-size: 1.1rem;
@@ -395,4 +449,96 @@ p[style*="color: red"] {
 
 p[style*="color: green"] {
   color: #28a745;
+}
+
+section{
+  background-color: #F7E7CE;
+  padding: 1.5rem;
+  margin: 1rem auto;
+}
+
+section h2{
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 2rem; 
+    font-size: 14px; 
+  }
+
+  .header__container {
+    margin-top: 1rem;
+  }
+
+  .header__wrapper {
+    top: -2rem; 
+    right: 0; 
+  }
+
+  .header__wrapper .text h1 {
+    font-size: 1.5rem; 
+    letter-spacing: 2px; 
+  }
+
+  .nav__container ul {
+    gap: 1rem; 
+  }
+
+  .nav__container ul li {
+    padding: 0.5rem 1rem; 
+    font-size: 1.2rem; 
+  }
+
+  .image__container .main__image {
+    width: 400px; 
+    height: auto; 
+  }
+
+  .text__container {
+    padding: 0.5rem; 
+  }
+
+  .text__container .btn {
+    padding: 0.5rem 3rem; 
+    font-size: 14px; 
+  }
+
+  .event__container ul {
+    padding: 0.5rem; 
+  }
+
+  .event__container ul .event__item {
+    font-size: 0.9rem; 
+    padding: 0.5rem; 
+  }
+
+  .gallery__container {
+    padding: 0.5rem; 
+  }
+
+  .gallery__container img,
+  .gallery__container video {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .upload__container {
+    padding: 0.5rem; 
+  }
+
+  .upload__btn {
+    padding: 0.5rem 2rem; 
+    font-size: 14px; 
+  }
+
+  section {
+    padding: 1rem; 
+  }
+
+  section h2 {
+    font-size: 1.2rem; 
+  }
+
 }

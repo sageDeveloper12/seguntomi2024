@@ -1,7 +1,7 @@
 
 
-import image1 from '/person1.jpg'
-import image2 from '/person2.jpg'
+import image1 from '/toppriority.jpg'
+import image2 from '/home2.jpg'
 import flower1 from '/flower.png'
 import { FaHeart } from "react-icons/fa";
 import { Link } from 'react-router-dom';
@@ -113,8 +113,7 @@ const Home = () => {
           variants={textVariant2}
           initial = 'hidden'
           animate = 'visible'
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nostrum sequi blanditiis possimus 
-            perferendis voluptate facere maiores quam facilis laborum.</motion.p>
+          >Many waters cannot quench love; rivers cannot sweep it away. If one were to give all the wealth of one’s house for love, it would be utterly scorned</motion.p>
             <Link to='/events'><button className='btn'>Events</button></Link>
        </div>
        <motion.div 

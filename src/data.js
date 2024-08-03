@@ -1,20 +1,75 @@
+   
 
     export const events =[
-        {id:1, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:2, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:3, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:4, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:6, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:7, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:8, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:9, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:10, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:11, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:12, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:13, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:14, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
-        {id:15, text:"Lorem ipsum dolor sit amet consectetur adipisicing elitIncidunt nostrum sequi blanditiis"},
+        {id:1, text:"Processional Hymn – Immortal, Invisible, God only Wise"},
+        {id:2, text:"Prayer of Thanksgiving and Consecration 	- Pastor Fortune Olayode"},
+        {id:3, text:"Exhortation, Charge and Declaration -	Pastor Oladayo Popoola"},
+        {id:4, text:"Hymn of Praise - 	BH 41 – To God Be the Glory"},
+        {id:5, text:"Joining and Blessing - Revd. Dr. Emmanuel O. Adewara"},
+        {id:6, text:"Scripture Reading	– Pastor Mrs. Florence Odili"},
+        {id:7 , text:"Music Ministration - Kingdom Choir"},
+        {id:9, text:"Message – Minister Peter Obona"},
+        {id:10, text:"Hymn of Prayer - 	BH 377 “God, Give Us Christian Home"},
+        {id:11, text:"Special Prayer for the Couple - 	Revd. Mrs. Lydia Ogunyemi"},
+        {id:12, text:"Thanksgiving and Music – Dns. OpeOlu Owolabi"},
+        {id:13, text:"Presentation of Marriage Certificate - 	Revd. Dr. Emmanuel O. Adewara"},
+        {id:14, text:"The Gideon International - 	Representative"},
+        {id:15, text:"Welcome and Announcement-	Mrs. Oluwakemi Adeduyite"},
+        {id:16, text:"Closing Prayer/ Benediction -	Revd. Dr. Emmanuel O. Adewara"},
+        {id:17, text:"Recessional Hymn – Through the Love of God our Saviour"},
     ]
+    export const ministers =[
+        {id:1, text:"1.Revd. Dr. Emmanuel O. Adewara – FBC, Kubwa, Abuja."},
+        {id:2, text:"2.Pastor Oladayo Popoola – FBC, Kubwa Abuja"},
+        {id:3, text:"3.Revd. Lydia Ogunyemi – FBC Kubwa, Abuja"},
+        {id:4, text:"4.Pastor Fortune Olayode – Nigerian Baptist Theological Seminary, Ogbomoso"},
+        {id:5, text:"5.Pastor Mrs. Florence Odili – Baptist Theological Semiary, Kaduna"},
+        {id:6, text:"6.Minister Peter Obona – Rhema Chapel Satellite Church, Kubwa"},
+        {id:7, text:"7.Dns. OpeOlu Owolabi - FBC, Kubwa, Abuja"},
+        {id:8, text:"8.Mrs. Oluwakemi Adeduyite - FBC, Kubwa, Abuja"},  
+    ]
+
+    export const orderOfPhotograph = [
+        {id:1, text:"1.Officiating Ministers "},
+        {id:2, text:"2.Body of Deacons"},
+        {id:3, text:"3.Kingdom Choir"},
+        {id:4, text:"4.Bride’s parents"},
+        {id:5, text:"5.Groom’s parent"},
+        {id:6, text:"6.Both parents"},
+        {id:7, text:"7.Bride’s siblings"},
+        {id:8, text:"8.Bride’s family"},    
+        {id:9, text:"9.Groom’s family"},    
+        {id:10, text:"10.Both families"},    
+        {id:11, text:"11.Friends and Families from Abuja"},    
+        {id:12, text:"12.Friends and Families from Abuja"},    
+        {id:13, text:"13.First Baptist Church, Kubwa"},    
+        {id:14, text:"14.Rhema Chapel, Ibadan & Kubwa"},    
+        {id:15, text:"15.MMU, FBC Kubwa"},    
+        {id:16, text:"16.WMU, FBC Kubwa"},    
+        {id:17, text:"17.Children Chapel FBCK"},    
+        {id:18, text:"18.Maranatha Association"},    
+        {id:19, text:"19.Youth Fellowship, FBC Kubwa."},    
+    ]
+    export const orderOfReception = [
+        {id:1, text:"1.Arrival of Guests "},
+        {id:2, text:"2.Introduction of Guests"},
+        {id:3, text:"3.The Couple’s Parent Arrives"},
+        {id:4, text:"4.Arrival of Couple"},
+        {id:5, text:"5.Opening Prayert"},
+        {id:6, text:"6.Chairman and Chairlady’s Opening Remarks"},
+        {id:7, text:"7.Cutting of Cake"},
+        {id:9, text:"9.	Nuptial Dance"},    
+        {id:10, text:"10.Bride and Parent’s Dance"},    
+        {id:11, text:"11.Groom and Parent’s Dance"},    
+        {id:12, text:"12.Presentation of Gifts"},    
+        {id:13, text:"13.Throwing of Bouquet"},    
+        {id:14, text:"15.Closing Remarks and Prayer"},    
+        {id:14, text:"15.Rhema Chapel, Ibadan & Kubwa"},    
+        {id:14, text:"16.Musical Display "},      
+           
+    ]
+
+
     
     
     
@@ -23,38 +78,6 @@
     
     
     
-    
-    export const weddingQuotes = [
-        { id: 1, text: "A great marriage is not when the 'perfect couple' comes together. It is when an imperfect couple learns to enjoy their differences.", author: "Dave Meurer" },
-        { id: 2, text: "Love is not about how many days, months, or years you’ve been together; it’s about how much you love each other every single day.", author: "Unknown" },
-        { id: 3, text: "The best thing to hold onto in life is each other.", author: "Audrey Hepburn" },
-        { id: 4, text: "You don’t marry someone you can live with – you marry the person who you cannot live without.", author: "Unknown" },
-        { id: 5, text: "A successful marriage requires falling in love many times, always with the same person.", author: "Mignon McLaughlin" },
-        { id: 6, text: "Marriage is not about age; it’s about finding the right person.", author: "Sophia Bush" },
-        { id: 7, text: "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.", author: "Maya Angelou" },
-        { id: 8, text: "Love is composed of a single soul inhabiting two bodies.", author: "Aristotle" },
-        { id: 9, text: "A wedding is a momentous event in one’s life. It is a symbol of a beautiful journey of love and faith.", author: "Unknown" },
-        { id: 10, text: "You are my today and all of my tomorrows.", author: "Leo Christopher" },
-        { id: 11, text: "Love is not about how much you say ‘I love you,’ but how much you can prove that it’s true.", author: "Unknown" },
-        { id: 12, text: "To love and be loved is to feel the sun from both sides.", author: "David Viscott" },
-        { id: 13, text: "A good marriage is the union of two good forgivers.", author: "Robert Quillen" },
-        { id: 14, text: "The secret to a happy marriage is if you can be at peace with someone within four walls, if you are content because the one you love is near to you, either upstairs or downstairs, or in the same room, and you feel that warmth you don’t find very often, then that is what love is all about.", author: "Bruce Forsyth" },
-        { id: 15, text: "Love doesn’t make the world go round. Love is what makes the ride worthwhile.", author: "Elizabeth Barrett Browning" },
-        { id: 16, text: "A wedding is a celebration of love, joy, and unity.", author: "Unknown" },
-        { id: 17, text: "Love is a promise; love is a souvenir, once given never forgotten, never let it disappear.", author: "John Lennon" },
-        { id: 18, text: "Where there is love, there is life.", author: "Mahatma Gandhi" },
-        { id: 19, text: "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.", author: "Lao Tzu" },
-        { id: 20, text: "You are the finest, loveliest, tenderest, and most beautiful person I have ever known—and even that is an understatement.", author: "F. Scott Fitzgerald" },
-        { id: 21, text: "There is no more lovely, friendly, and charming relationship, communion, or company than a good marriage.", author: "Martin Luther" },
-        { id: 22, text: "A great marriage is not when the ‘perfect couple’ comes together. It is when an imperfect couple learns to enjoy their differences.", author: "Dave Meurer" },
-        { id: 23, text: "The best thing to hold onto in life is each other.", author: "Audrey Hepburn" },
-        { id: 24, text: "Whatever our souls are made of, his and mine are the same.", author: "Emily Brontë" },
-        { id: 25, text: "I love you without knowing how, or when, or from where. I love you straightforwardly, without complexities or pride; so I love you because I know no other way.", author: "Pablo Neruda" },
-        { id: 26, text: "A successful marriage requires falling in love many times, always with the same person.", author: "Mignon McLaughlin" },
-        { id: 27, text: "You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.", author: "Dr. Seuss" },
-        { id: 28, text: "Love is not about how much you say ‘I love you,’ but how much you can prove that it’s true.", author: "Unknown" },
-        { id: 29, text: "The best thing to hold onto in life is each other.", author: "Audrey Hepburn" },
-        { id: 30, text: "Love is composed of a single soul inhabiting two bodies.", author: "Aristotle" }
-      ];
+
       
       
