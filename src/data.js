@@ -63,9 +63,8 @@
         {id:11, text:"11.Groom and Parent’s Dance"},    
         {id:12, text:"12.Presentation of Gifts"},    
         {id:13, text:"13.Throwing of Bouquet"},    
-        {id:14, text:"15.Closing Remarks and Prayer"},    
-        {id:14, text:"15.Rhema Chapel, Ibadan & Kubwa"},    
-        {id:14, text:"16.Musical Display "},      
+        {id:14, text:"15.Closing Remarks and Prayer"},       
+        {id:15, text:"16.Musical Display "},      
            
     ]
 

@@ -53,7 +53,6 @@ const Events = () => {
     </div>
   </section>
   <section>
-    <h2>POPOOLA</h2>
     <p>Dearly beloved, we assemble here in the presence of 
       God and before this congregation to join together, 
       <em>OLUWATOMISIN RACHEAL OYEWALE and 

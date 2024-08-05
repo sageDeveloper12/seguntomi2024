@@ -4,6 +4,7 @@ import Events from './pages/Events';
 import Upload from './pages/Upload';
 import Gallery from './pages/Gallery';
 import Header from './components/Header';
+import Footer from './pages/Footer';
 
 import './App.css'
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/upload" element={<Upload />} />
             <Route path="/gallery" element={<Gallery />} />
         </Routes>
+        <Footer/>
       </Router>
     </>
   )
