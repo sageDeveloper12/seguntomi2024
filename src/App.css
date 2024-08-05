@@ -562,6 +562,7 @@ section h2{
 }
 
 .copy{
-  opacity: 0.6;
+  font-size: 0.6rem;
+  opacity: 0.4;
   font-style: italic;
 }
