@@ -52,6 +52,22 @@ const navVariant2 = {
   }
 }
 
+/* const scrollVariants = {
+   hidden: {
+     x : '100vw'
+   },
+
+   visible :{
+    x : "-2000vw",
+    transition:{
+      duration:{duration: 10, ease: "linear", repeat: Infinity}
+     }
+   },
+
+  
+
+}
+ */
 const Header = () => {
   return (
     <div className="header__container">
@@ -63,7 +79,14 @@ const Header = () => {
           initial = 'hidden'
           animate = 'visible'
           >OLUWATOMISIN & OLUWASEGUN</motion.h1>
-        </div>       
+        </div>
+        <motion.div className="headline__container" 
+         initial={{x:"100vw"}}
+         animate ={{x:"-100vw"}}
+         transition={{ duration: 30, ease: "linear", repeat: Infinity }}
+        >
+          <p className='headline'>For Gifts & Support:<em>1764582199</em> ACCESS BANK OLUWATOMISIN OYEWALE</p>
+        </motion.div>       
         <div className="nav__container">
         <ul>
           <motion.li

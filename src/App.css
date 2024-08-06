@@ -27,6 +27,10 @@ button{
 button:hover{
   background-color: #F7E7CE;
 }
+
+button:active {
+  background-color: #4b4b00;
+}
 .title {
   position: relative;
   background-color: transparent; 
@@ -142,6 +146,25 @@ h3{
   font-family: 'Lobster', sans-serif;
 
 }
+
+.headline__container {
+  width: 100vw;
+  white-space: nowrap;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  color: #fff;
+  box-sizing: border-box;
+  position: absolute; 
+}
+
+.headline {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  color:#800020;
+
+}
+
 
 /* =====================Home========================== */
 
